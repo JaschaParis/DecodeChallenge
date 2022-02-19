@@ -7,10 +7,10 @@ The programm takes input from stdin as described in: [Challenge](https://mailing
 You can test the programm with the bash script supplied:
 ```
 ./test_automaton
-´´´
+```
 
 You can run your own cases with:
-´´´
+```
 input="A 11 10\n
 init_start 6 init_end"
 
