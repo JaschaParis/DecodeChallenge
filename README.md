@@ -15,4 +15,4 @@ input="A 11 10\n
 init_start 6 init_end"
 
 echo $input | python3 automaton.py
-``
+```
