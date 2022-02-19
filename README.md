@@ -16,3 +16,10 @@ init_start 6 init_end"
 
 echo $input | python3 automaton.py
 ```
+
+# Featues
+Notable features of this solution:
+  * Implementation of the automaton itself with only few characters of code (`gen[1:-1] = ac[4*np.roll(gen,1)+2*gen+np.roll(gen,-1)][1:-1]`)
+  * Few lines of code in summary
+  * Using only one for-loop as loops are normally inefficient in python
+
